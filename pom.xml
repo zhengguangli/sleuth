@@ -9,6 +9,7 @@
         <module>eureka-server</module>
         <module>user-service</module>
         <module>gateway-service</module>
+        <module>admin-server</module>
     </modules>
 
     <parent>

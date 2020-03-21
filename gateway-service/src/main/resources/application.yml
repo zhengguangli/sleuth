@@ -12,6 +12,18 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
+  boot:
+    admin:
+      client:
+        url: http://localhost:8769
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
 zuul:
   routes:
     users:
