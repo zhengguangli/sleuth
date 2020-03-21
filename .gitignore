@@ -2,3 +2,19 @@
 /eureka-server/target/
 /gateway-service/target/
 /user-service/target/
+将删除 .idea/
+将删除 admin-server/admin-server.iml
+将删除 admin-server/src/test/
+将删除 admin-server/target/
+将删除 eureka-server/src/main/resources/static/
+将删除 eureka-server/src/main/resources/templates/
+将删除 eureka-server/src/test/
+将删除 gateway-service/src/main/resources/static/
+将删除 gateway-service/src/main/resources/templates/
+将删除 gateway-service/src/test/
+将删除 sleuth.iml
+将删除 turbine-server/src/
+将删除 turbine-server/turbine-server.iml
+将删除 user-service/src/main/resources/static/
+将删除 user-service/src/main/resources/templates/
+将删除 user-service/src/test/

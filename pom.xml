@@ -10,6 +10,7 @@
         <module>user-service</module>
         <module>gateway-service</module>
         <module>admin-server</module>
+        <module>turbine-server</module>
     </modules>
 
     <parent>

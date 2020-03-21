@@ -15,3 +15,4 @@ public class AdminServerApplication {
         SpringApplication.run(AdminServerApplication.class, args);
     }
 }
+
