@@ -1,7 +1,7 @@
 package ink.icopy.base.controller;
 
-import ink.icopy.verifycode.annotation.HttpMethodFlag;
-import ink.icopy.verifycode.util.VerifyCodeUtils;
+import ink.icopy.base.annotation.HttpMethodFlag;
+import ink.icopy.base.util.VerifyCodeUtils;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

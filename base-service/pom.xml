@@ -6,7 +6,6 @@
         <artifactId>sleuth</artifactId>
         <groupId>ink.icopy</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>././</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>base-service</artifactId>

@@ -1,6 +1,6 @@
 package ink.icopy.base.util;
 
-import ink.icopy.verifycode.service.UserService;
+import ink.icopy.base.service.UserService;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;

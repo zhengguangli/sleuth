@@ -1,6 +1,6 @@
 package ink.icopy.base.service.iml;
 
-import ink.icopy.verifycode.service.IAccountService;
+import ink.icopy.base.service.IAccountService;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.annotation.Transactional;
 

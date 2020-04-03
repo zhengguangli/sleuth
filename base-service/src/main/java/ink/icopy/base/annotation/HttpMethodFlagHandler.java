@@ -22,7 +22,7 @@ public class HttpMethodFlagHandler {
 
     Logger logger = LoggerFactory.getLogger(HttpMethodFlagHandler.class);
 
-    @Pointcut("@annotation(ink.icopy.verifycode.annotation.HttpMethodFlag)")
+    @Pointcut("@annotation(ink.icopy.base.annotation.HttpMethodFlag)")
     public void pointCut() {
     }
 

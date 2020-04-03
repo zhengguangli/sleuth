@@ -1,6 +1,6 @@
 package ink.icopy.base.conf;
 
-import ink.icopy.verifycode.util.SSLSocketClientFactory;
+import ink.icopy.base.util.SSLSocketClientFactory;
 import okhttp3.OkHttpClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

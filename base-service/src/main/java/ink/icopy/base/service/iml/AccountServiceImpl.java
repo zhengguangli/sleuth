@@ -1,6 +1,6 @@
 package ink.icopy.base.service.iml;
 
-import ink.icopy.verifycode.service.IAccountService;
+import ink.icopy.base.service.IAccountService;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,7 +14,7 @@ public class AccountServiceImpl implements IAccountService {
     @Resource(name = "jdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void increaseAmount(String accountId, double amount) {
         this.jdbcTemplate.update(
                 "update tb_account set frozen = frozen + ? where acct_id = ?", amount, accountId);

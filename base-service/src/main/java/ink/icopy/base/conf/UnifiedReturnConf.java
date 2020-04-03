@@ -1,6 +1,6 @@
 package ink.icopy.base.conf;
 
-import ink.icopy.verifycode.common.http.Result;
+import ink.icopy.base.common.http.Result;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -36,7 +36,7 @@ public class UnifiedReturnConf {
             if (bodyObject instanceof Result) {
                 return bodyObject;
             }
-            return new Result<Object>(bodyObject);
+            return new Result<>(bodyObject);
         }
     }
 }

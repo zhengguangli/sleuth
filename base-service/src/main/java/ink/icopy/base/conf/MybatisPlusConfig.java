@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("ink.icopy.verifycode.mapper")
 public class MybatisPlusConfig {
     /**
      * 分页插件

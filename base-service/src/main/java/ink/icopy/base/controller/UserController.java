@@ -1,7 +1,7 @@
 package ink.icopy.base.controller;
 
-import ink.icopy.verifycode.entity.User;
-import ink.icopy.verifycode.service.UserService;
+import ink.icopy.base.entity.User;
+import ink.icopy.base.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
