@@ -18,3 +18,6 @@
 将删除 user-service/src/main/resources/static/
 将删除 user-service/src/main/resources/templates/
 将删除 user-service/src/test/
+将删除 admin-server/src/main/java/ink/icopy/admin/
+将删除 admin-server/src/main/java/ink/icopy/common/
+将删除 base-service/src/test/
