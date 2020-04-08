@@ -40,3 +40,12 @@ spring:
         enabled: true
         login-username: admin
         login-password: admin123
+
+  mail:
+    host: smtp.163.com
+    username: zzlxxi@163.com
+    password: QPPOVHBGZGXAHMTC
+    default-encoding: utf-8
+mail:
+  fromMail:
+    addr: zzlxxi@163.com
