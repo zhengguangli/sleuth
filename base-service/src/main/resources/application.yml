@@ -44,7 +44,7 @@ spring:
   mail:
     host: smtp.163.com
     username: zzlxxi@163.com
-    password: QPPOVHBGZGXAHMTC
+    password: WPPOVHBGZGXAHMT
     default-encoding: utf-8
 mail:
   fromMail:
