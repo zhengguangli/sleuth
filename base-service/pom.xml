@@ -11,7 +11,7 @@
     <artifactId>base-service</artifactId>
 
     <properties>
-        <poi.version>4.1.0</poi.version>
+        <poi.version>4.1.1</poi.version>
         <okhttp.version>3.14.2</okhttp.version>
         <sentinel.version>1.7.2</sentinel.version>
     </properties>
